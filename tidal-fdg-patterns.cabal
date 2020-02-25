@@ -24,7 +24,7 @@ library
                        Sound.Tidal.Fdg.OpenHat
                        Sound.Tidal.Fdg.Crash
                        Sound.Tidal.Fdg.Ride
-                       ound.Tidal.Fdg.Presets.Sh101
+                       Sound.Tidal.Fdg.Presets.Sh101
 
   build-depends:       base >= 4.7 && < 5,
                        tidal
