@@ -1,0 +1,36 @@
+name:                tidal-fdg-patterns
+version:             0.0.1.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/delaudio/tidal-fdg-patterns
+author:              Federico Del Gaudio
+maintainer:          federico.delgaudio@gmail.com
+copyright:           2020 Federico Del Gaudio
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Sound.Tidal.Fdg.BassDrum
+                       Sound.Tidal.Fdg.Snare
+                       Sound.Tidal.Fdg.Rim
+                       Sound.Tidal.Fdg.Clap
+                       Sound.Tidal.Fdg.LowTom
+                       Sound.Tidal.Fdg.MidTom
+                       Sound.Tidal.Fdg.HighTom
+                       Sound.Tidal.Fdg.ClosedHat
+                       Sound.Tidal.Fdg.OpenHat
+                       Sound.Tidal.Fdg.Crash
+                       Sound.Tidal.Fdg.Ride
+                       ound.Tidal.Fdg.Presets.Sh101
+
+  build-depends:       base >= 4.7 && < 5,
+                       tidal
+  -- hs-source-dirs:
+  default-language:    Haskell2010
+  default-extensions:  OverloadedStrings
+source-repository head
+  type:     git
+  location: https://github.com/delaudio/tidal-fdg-patterns
