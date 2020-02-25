@@ -39,7 +39,7 @@ bd_909_002_f = n "[c3 ~ c3 c3][~ c3 ~ ~][~ ~ c3 c3][~ c3 ~ ~]" # s "midi
 
 bd_909_002_g = n "[c3 ~ ~ c3][~ ~ ~ ~][~ ~ c3 c3][~ ~ ~ ~]" # s "midi" # midichan 0 # amp "[1][1][1 1 0.7 1][1]" :: Pattern ControlMap
 
-bd_909_002_f = n "[c3 ~ ~ c3][~ ~ ~ ~][~ ~ c3 c3][~ ~ ~ ~]" # s "midi" # midichan 0 # amp "[1][1][1][1]" :: Pattern ControlMap
+bd_909_002_h = n "[c3 ~ ~ c3][~ ~ ~ ~][~ ~ c3 c3][~ ~ ~ ~]" # s "midi" # midichan 0 # amp "[1][1][1][1]" :: Pattern ControlMap
 
 -- 003
 
@@ -66,4 +66,3 @@ bd_909_004_g = n "[c3 ~ ~ c3][~ ~ c3 ~][~ c3 ~ c3][~ ~ c3 ~]" # s "midi" #
 bd_909_004_h = n "[c3][c3][c3][c3]" # s "midi" # midichan 0 # amp "1" :: Pattern ControlMap
 
 -- 005
-

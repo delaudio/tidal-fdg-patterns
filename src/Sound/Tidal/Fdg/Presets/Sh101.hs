@@ -45,11 +45,7 @@ vcf_decay = ccn 84 # s "midi" # midichan 0 :: Pattern ControlMap -- vcf decay
 
 vcf_sustain = ccn 85 # s "midi" # midichan 0 :: Pattern ControlMap -- vcf sustain
 
-vcf_release = ccn 86 # s "midi" # midichan 0:: Pattern ControlMap -- vcf release
-
-vcf_attack = ccn 89 # s "midi" # midichan 0 :: Pattern ControlMap -- vcf attack
-
-vcf_decay = ccn 90 # s "midi" # midichan 0 :: Pattern ControlMap -- vcf decay
+vcf_release = ccn 86 # s "midi" # midichan 0 :: Pattern ControlMap -- vcf release
 
 vca_sustain = ccn 96 # s "midi" # midichan 0 :: Pattern ControlMap -- vca sustain
 
